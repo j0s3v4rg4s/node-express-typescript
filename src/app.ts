@@ -8,7 +8,7 @@ import * as path from 'path';
 // -----------------------------------------------------------------
 // Import router
 // -----------------------------------------------------------------
-import { default as index } from "./router/index";
+import index from "./router/index";
 
 // -----------------------------------------------------------------
 // Attributes

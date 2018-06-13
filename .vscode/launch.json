@@ -11,7 +11,7 @@
             "program": "${workspaceFolder}/src/index.ts",
             "stopOnEntry": false,
             "cwd": "${workspaceRoot}",
-            "preLaunchTask": "tsc",
+            "preLaunchTask": "build:watch",
             "runtimeExecutable": "nodemon",
             "restart": true,
             "sourceMaps": true,

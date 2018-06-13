@@ -2,14 +2,16 @@
     "compilerOptions": {
 		"module": "commonjs",
 		"target": "es5",
-		"outDir": "../out",
+		"outDir": "./dist",
 		"lib": [
 			"es6"
 		],
 		"sourceMap": true,
-        "rootDir": ".",
+        "rootDir": "./src",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "watch": true
-	}
+	},
+	"exclude": [
+        "src/**/__tests__/*"
+    ]
 }
